@@ -1,7 +1,7 @@
 // iTick API配置
 const ITICK_CONFIG = {
     BASE_URL: 'https://api.itick.org',
-    TOKEN: 'your_itick_token_here', // 替换为你的实际Token
+    TOKEN: 'https://api.itick.org/stock/quote?region=HK&code=700', // 替换为你的实际Token
     HEADERS: {
         'accept': 'application/json',
         'token': 'your_itick_token_here'
